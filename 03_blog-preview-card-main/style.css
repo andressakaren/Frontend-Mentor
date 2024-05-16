@@ -1,0 +1,104 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+    --Grey: hsl(0, 0%, 50%);
+}
+
+p {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--Yellow);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    display: grid;
+    border: 1px solid var(--Black);
+    background-color: var(--White);
+    width: 360px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+main:hover {
+    transition: .1s;
+    transform: translate(-10px, -10px);
+    box-shadow: 20px 20px black;
+}
+
+figure {
+    display: flex;
+    padding: 20px 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+figure img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    justify-self: start;
+    align-self: center;
+}
+
+div p {
+    background-color: var(--Yellow);
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.texto {
+    display: grid;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Black);
+    font-weight: 800;
+}
+
+a:hover {
+    color: var(--Yellow);
+}
+
+.info {
+    color: var(--Grey);
+}
+
+.id {
+    display: flex;
+    padding: 10px 0px 20px 20px;
+    font-weight: 800;
+    align-items: center;
+    gap: 10px;
+}
+
+.id img {
+    width: 50px;
+    height: 50px;
+}
