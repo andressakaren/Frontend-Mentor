@@ -8,3 +8,7 @@
 ### NFT-preview-card-component
 - Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/02_NFT-preview-card-component](https://github.com/andressakaren/Frontend-Mentor/tree/main/02_NFT-preview-card-component)
 - Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/02_NFT-preview-card-component/](https://andressakaren.github.io/Frontend-Mentor/02_NFT-preview-card-component/)
+
+### Blog-preview-card
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/03_blog-preview-card-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/03_blog-preview-card-main)
+- Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/03_blog-preview-card-main/](https://andressakaren.github.io/Frontend-Mentor/03_blog-preview-card-main/)
