@@ -18,3 +18,9 @@
 - Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/03_blog-preview-card-main/](https://andressakaren.github.io/Frontend-Mentor/03_blog-preview-card-main/)
 
     ![Blog](03_blog-preview-card-main/design/desktop-design.jpg)
+
+### Social-links-profile
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main)
+- Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/04_social-links-profile-main/](https://andressakaren.github.io/Frontend-Mentor/04_social-links-profile-main/)
+
+    ![Blog](04_social-links-profile-main/design/active-states.jpg)
