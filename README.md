@@ -20,7 +20,13 @@
     ![Blog](03_blog-preview-card-main/design/desktop-design.jpg)
 
 ### Social-links-profile
-- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main)
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/05_recipe-page-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/05_recipe-page-main)
 - Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/04_social-links-profile-main/](https://andressakaren.github.io/Frontend-Mentor/04_social-links-profile-main/)
 
     ![Blog](04_social-links-profile-main/design/active-states.jpg)
+
+### Social-links-profile
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/04_social-links-profile-main)
+- Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/05_recipe-page-main/](https://andressakaren.github.io/Frontend-Mentor/05_recipe-page-main/)
+
+    ![Blog](05_recipe-page-main/design/desktop-design.jpg)
