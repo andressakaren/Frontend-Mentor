@@ -34,10 +34,7 @@ body {
 main{
     background-color: var(--White);
     width: 730px;
-    height: 1770px;
-    display: grid;
-    /* Mds tem que existir outra forma de fazer isso */
-    grid-template-rows: max-content max-content max-content max-content max-content max-content;
+    height: auto;
     border-radius: 25px;
     padding: 40px;
 }
@@ -96,6 +93,10 @@ figure img {
     font-size: 1.3rem;
 }
 
+.bullet p {
+    
+}
+
 span {
     font-family: 'Outfit';
     font-style: normal;
@@ -111,6 +112,10 @@ span {
     font-size: 1rem;
     list-style-position: inside;
 }
+
+.prep-time > ul li::marker {
+    font-size: small;
+} 
 
 .ingredients {
     display: grid;
@@ -138,6 +143,9 @@ span {
     border-bottom: 1px solid var(--Eggshell);
 }
 
+.ingredients > ul li::marker {
+    font-size: small;
+} 
 
 .instructions {
     display: grid;
@@ -168,6 +176,10 @@ span {
 .instructions ol li {
     margin-bottom: 8px;
 }
+
+.instructions > ol li::marker {
+    font-weight: 700;
+  } 
 
 .nutrition {
     display: grid;
