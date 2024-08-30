@@ -23,13 +23,14 @@ body {
     font-family: "Red Hat Display", sans-serif;
     background-image: url(images/pattern-background-desktop.svg);
     background-color: var(--Pale-blue);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 80px 0px;
 }
 
 main {
@@ -66,6 +67,7 @@ section {
     font-size: 0.9rem;
     color: var(--Desaturated-blue);
     font-weight: 500;
+    line-height: 1.7;
     /* seria interessante ver se é viavel fazer assim ou usar width com unidade ch */
     margin: 0px 40px 20px 40px;
 }
@@ -73,10 +75,11 @@ section {
 .annual-plan {
     display: flex;
     background-color: rgba(224, 232, 255, 0.3);
-    gap: 22px;
     margin: 0px 40px 0px 40px;
     border-radius: 10px;
     padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .annual-plan img {
@@ -84,15 +87,54 @@ section {
     height: 40px;
 }
 
-.annual-plan-info > h2 {
-    font-size: 0.9rem;
+.annual-plan a {
+    color: var(--Bright-blue);
+    font-weight: 700;
+    font-size: 0.8rem;
+    align-self: center;
+    margin-right: 10px;
 }
 
-.annual-plan-info > p {
+.annual-plan-info {
+    margin-right: 60px;
+}
+
+.annual-plan-info h2 {
+    font-size: 0.9rem;
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
+
+.annual-plan-info p {
     font-size: 0.9rem;
     color: var(--Desaturated-blue);
 }
 
-.annual-plan p {
-    justify-content: center;
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links :nth-child(odd) {
+    background-color: var(--Bright-blue);
+    margin: 0px 40px 0px 40px;
+    color: var(--Very-pale-blue);
+    text-align: center;
+    padding: 11px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 10px 20px hsl(224, 23%, 55%, 80%);
+}
+
+.links :nth-child(even) {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    font-weight: 700;
 }
