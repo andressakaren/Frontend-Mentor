@@ -91,6 +91,14 @@ section {
     margin-right: 10px;
 }
 
+#button:hover{
+    opacity: 0.8;
+}
+
+#button_1:hover{
+    color: var(--Dark-blue);
+}
+
 .annual-plan-info {
     margin-right: 60px;
 }
