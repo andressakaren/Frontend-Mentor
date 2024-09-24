@@ -43,3 +43,10 @@
 - Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/06_results-summary-component-main/](https://andressakaren.github.io/Frontend-Mentor/06_results-summary-component-main/)
 
     ![Blog](06_results-summary-component-main/design/desktop-design.jpg)
+
+## Order-summary-component-main
+
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/07_order-summary-component-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/07_order-summary-component-main)
+- Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/07_order-summary-component-main/](https://andressakaren.github.io/Frontend-Mentor/07_order-summary-component-main/)
+
+    ![Blog](07_order-summary-component-main/design/desktop-design.jpg)
