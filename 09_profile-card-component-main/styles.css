@@ -20,20 +20,87 @@ body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;
-    background-position: -130% 150%, 230% -70%;
+    background-position: -85% 155%, 160% -100%;
     background-color: var(--Dark-cyan);
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 main {
     background-color: white;
     border-radius: 15px;
+    position: relative;
 }
 
-img {
+.img-card {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.img-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -83%); /* sem convicção nenhuma  */
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.main-info h1 {
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.main-info span {
+    color: var(--Dark-gray);
+    font-weight: 400;
+}
+
+.main-info p {
+    color: var(--Dark-gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid hsl(0, 0%, 59%, 0.2);
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    /* justify-content: center; */
+}
+
+.info h2 {
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+    text-align: center;
+}
+
+.info p {
+    color: var(--Dark-gray);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.7px;
 }
