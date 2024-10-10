@@ -52,7 +52,7 @@ main {
     border: 5px solid white;
     position: absolute;
     left: 50%;
-    top: 100%;
+    top: 97%;
     transform: translate(-50%, -50%);
 }
 
