@@ -50,3 +50,10 @@
 - Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/07_order-summary-component-main/](https://andressakaren.github.io/Frontend-Mentor/07_order-summary-component-main/)
 
     ![Blog](07_order-summary-component-main/design/desktop-design.jpg)
+
+## Profile-card-component-main
+
+- Solution URL: [https://github.com/andressakaren/Frontend-Mentor/tree/main/09_profile-card-component-main](https://github.com/andressakaren/Frontend-Mentor/tree/main/09_profile-card-component-main)
+- Live Site URL: [https://andressakaren.github.io/Frontend-Mentor/09_profile-card-component-main/](https://andressakaren.github.io/Frontend-Mentor/09_profile-card-component-main/)
+
+    ![Blog](09_profile-card-component-main/design/desktop-design.jpg)
